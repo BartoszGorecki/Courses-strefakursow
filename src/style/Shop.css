@@ -1,0 +1,35 @@
+.shop-item {
+  width: 840px;
+  height: 90px;
+  background: white;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 90px auto 200px;
+  padding: 5px;
+}
+.shop-item-image {
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.shop-item-title {
+  font-size: 16px;
+  font-weight: bold;
+  display: grid;
+  grid-template-rows: 50px auto;
+}
+.shop-item-author {
+  font-size: 10px;
+  color: #9294a6;
+}
+.shop-item-last {
+  display: grid;
+  grid-template-rows: 50px auto;
+}
+.shop-item-last-price {
+  margin-left: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ec5252;
+}

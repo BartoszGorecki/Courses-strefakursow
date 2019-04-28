@@ -1,0 +1,41 @@
+.course-shop {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+}
+.course-shop-info {
+  position: absolute;
+  width: 120px;
+  top: 30px;
+  left: 50%;
+  color: #26d071;
+  font-size: 12px;
+  font-weight: bold;
+  transform: translateX(-50%);
+}
+.course-price {
+  display: grid;
+  grid-template-columns: auto 42px;
+  width: 134px;
+  height: 52px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 130, 250, 0.57),
+    0 6px 25px 0 rgba(0, 130, 250, 0.21);
+  background: #0082fa;
+  padding: 5px;
+  transition: 0.2s;
+}
+.course-price:hover {
+  background: #00427f;
+}
+.course-price-icon {
+  border-radius: 50%;
+  border: solid 1px rgba(255, 255, 255, 0.14);
+}
+.course-price-icon-small {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #fff;
+}

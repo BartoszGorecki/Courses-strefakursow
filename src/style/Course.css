@@ -1,0 +1,11 @@
+.course-container {
+  height: 100%;
+  grid-template-columns: 200px auto 200px;
+  display: grid;
+  padding: 15px;
+}
+.course-image {
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
